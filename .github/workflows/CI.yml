@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "CR660x"
+            targets: "MI-R3G"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
